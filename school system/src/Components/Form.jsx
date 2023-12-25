@@ -8,6 +8,9 @@ function Form() {
   const [age, setAge] = useState(null);
   const [stdData, setStdData] = useState([]);
 
+
+  // All Data Are Save
+
   const Data = (e) => {
     e.preventDefault();
     if (name == null || name.trim() === "") {
